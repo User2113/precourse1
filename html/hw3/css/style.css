@@ -1,0 +1,84 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body{
+    color: gray;
+}
+
+.wrapper{
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+ul{
+    margin: auto;
+    width: max-content;
+}
+
+li{
+    display: inline-block;
+    font-size: 18px;
+    list-style: none;
+    text-transform: uppercase;
+    margin: 30px;
+}
+
+a{
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover{
+    color: aqua;
+}
+
+img{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    height: 250px;
+}
+
+.life{
+    width: 450px;
+    display: inline-block;
+}
+
+.des{
+    color: lightgray;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+footer{
+    text-align: center;
+    margin: auto;
+}
+
+.bth{
+    margin: auto;
+    width: max-content;
+    height: 75px;
+}
+
+button{
+    background-color: white;
+    width: 150px;
+    height: 60px;
+    font-family: 'Playfair Display' , serif;
+    color: rgb(77, 73, 73);
+    font-size: 20px;
+    border: solid 1px black;
+}
+
+button:hover{
+    background-color: aquamarine;
+}
